@@ -138,7 +138,57 @@ button{
 
 }
 
-
 #begin p{
     color:#838381;
+}
+
+.container2{
+    margin:auto;
+    width: 80%;
+    position: relative;
+}
+
+.casella {
+    width: 27%;
+    text-align: center;
+    display: inline-block;
+    font-family: cursive;
+    margin:30px;
+    font-size: 12px;
+}
+
+.casella h3{
+    color: #7BBC00;
+    margin-bottom: 20px;
+}
+
+#grande{
+    font-size: 18.5px;
+}
+
+.casella p{
+    line-height: 2;
+    color: grey;
+    margin-bottom: 20px;
+    position: relative;
+    overflow:hidden;
+}
+
+#img-profile{
+    height: 160px;
+    margin-top: 5px;
+}
+
+#img-computer{
+    height: 160px;
+    margin-top: 5px;
+
+
+}
+
+#img-doc{
+    height: 160px;
+    margin-top: 5px;
+    position: relative;
+    left: -5px;
 }
