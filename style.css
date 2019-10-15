@@ -126,4 +126,19 @@ button{
     bottom: 0;
     right: -30%;
     width:80%;
+
+}
+
+#begin{
+    text-align: center;
+    background-color: #ebebe9;
+    line-height: 1.4;
+    padding:30px;
+    font-family: cursive;
+
+}
+
+
+#begin p{
+    color:#838381;
 }
