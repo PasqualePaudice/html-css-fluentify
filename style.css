@@ -14,6 +14,7 @@ header {
     margin:auto;
     width: 80%;
     height: 100%;
+    position: relative;
 
 }
 
@@ -66,19 +67,22 @@ header {
     position: relative;
 }
 
-button {
-    text-transform: uppercase;
-    float: right;
-    position: relative;
-    padding: 5px 8px;
+button{
+    padding: 8px 8px;
     border: 0;
     margin: 2px;
     display: inline-block;
-    top:calc((100% - 30.55px) / 2);
+    text-transform: uppercase;
     font-family: 'Patua One', cursive;
     font-size: 12px;
     border-radius: 5px;
     color: white;
+    position: relative;
+}
+
+.top_right button {
+    float: right;
+    top:calc((100% - 34.55px) / 2);
 
 
 }
@@ -92,10 +96,10 @@ button {
 .butt2{
     background-color: transparent;
     border: 1px solid #55C7E9;
-    padding: 4px 18px;
+    padding: 8px 22px;
 }
 
-.top_right a{
+.top_right a {
     text-transform: uppercase;
     float: right;
     position: relative;
@@ -105,4 +109,21 @@ button {
     font-size: 12px;
     text-decoration: none;
     margin-right: 8px;
+}
+
+.jumbo {
+    width: 70%;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+
+}
+
+.jumbo_img{
+    position: absolute;
+    bottom: 0;
+    right: -30%;
+    width:80%;
 }
