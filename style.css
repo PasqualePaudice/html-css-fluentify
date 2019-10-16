@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+
+}
 header {
     background-color: #0D325A;
     width:100vw;
     height: 80vh;
+
 }
 
 .container {
